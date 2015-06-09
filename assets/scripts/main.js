@@ -1,0 +1,5 @@
+console.log('client code');
+
+$(document).ready(function() {
+    $('#fullpage').fullpage();
+});

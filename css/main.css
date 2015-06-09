@@ -1,0 +1,54 @@
+.section1-wrap {
+  display: inline-block;
+  padding: 50px;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  color: #fff;
+}
+.section1 {
+  text-align: center;
+  background-image: url("../images/section1.jpg");
+  background-size: cover;
+  color: rgba(255,255,255,0.8);
+}
+.section2 {
+  background-color: #000;
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+.navbar-default .navbar-brand {
+  color: rgba(255,255,255,0.8);
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: rgba(255,255,255,0.8);
+}
+.navbar-default .navbar-nav >li > a {
+  color: #f0f0f0;
+  width: 80px;
+}
+.navbar-default .navbar-nav >li > a:hover,
+.navbar-default .navbar-nav >li > a:focus {
+  color: #fff;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  font-weight: bold;
+  background-color: transparent;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(0,0,0,0.1);
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}

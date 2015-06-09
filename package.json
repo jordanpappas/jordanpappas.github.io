@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:html": "jade views/index.jade --out .",
+    "build:css": "stylus assets/styles/main.styl -o css/main.css",
+    "build:js": "browserify assets/scripts/*.js > js/main.js",
+    "build": "npm run build:css && npm run build:js && npm run build:html",
+    "start": "npm run build && open ./index.html"
+  },
+  "author": "Jordan Pappas <jordanpappas@yahoo.com>",
+  "license": "ISC"
+}
