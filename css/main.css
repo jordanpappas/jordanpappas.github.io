@@ -44,12 +44,12 @@
 }
 .section1 {
   text-align: center;
-  background-image: url("../images/mov.gif");
+  background-image: url("../images/giphy.gif");
   background-size: cover;
   color: rgba(255,255,255,0.8);
 }
 .section2 {
-  background-color: #5cb85c;
+  background-color: #f0ad4e;
   text-align: center;
 }
 .glyph {
