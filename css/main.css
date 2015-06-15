@@ -35,20 +35,20 @@
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-.section1-wrap {
+.section0-wrap {
   display: inline-block;
   padding: 50px;
   background-color: rgba(0,0,0,0.3);
   border-radius: 10px;
   color: #fff;
 }
-.section1 {
+.section0 {
   text-align: center;
   background-image: url("../images/giphy.gif");
   background-size: cover;
   color: rgba(255,255,255,0.8);
 }
-.section2 {
+.section1 {
   background-color: #f0ad4e;
   text-align: center;
 }
